@@ -1,7 +1,8 @@
 def birthdaycandles(candles):
     maxi = 0
+    high = max(candles)
     for i in range(len(candles)):
-        if candles[i] == max(candles):
+        if candles[i] == high:
             maxi += 1
     return maxi
 
